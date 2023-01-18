@@ -30,6 +30,30 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/* This makes the options display of number, and charecter preference more 
+visually appealing */
+.Form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This makes the interactive character amount bar more suited for the pages
+size */
+.CAC {
+  display: flex;
+  align-items: center;
+}
+
+/* This allows two charecters to display on the input box of desired password
+length */
+.Number-Input {
+  width: 3rem;
+}
+
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
