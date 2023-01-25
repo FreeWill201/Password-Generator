@@ -48,7 +48,7 @@ size */
   align-items: center;
 }
 
-/* This allows two charecters to display on the input box of desired password
+/* This allows up to three charecters to display on the input box of desired password
 length */
 .Number-Input {
   width: 3rem;

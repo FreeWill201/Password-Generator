@@ -12,8 +12,9 @@
       <header>
         <h1>Password Generator</h1>
       </header>
-      <!-- The below form is designed to give the user options when chosing
-      how they want to format their password.-->
+      <!-- The below form form is designed to give the user options when chosing
+      how they want to format their password. It includes each option for the entered
+    criteria of the password which are displayed as checkable boxes.-->
       <form id="PGF" class="Form">
         <label for="Number">Number Of Characters</label>
         <div class="CAC">
@@ -28,12 +29,13 @@
         <Input type="checkbox" id="Symbols">
           <label for="LowerCase">Include Lowercase</label> 
         <Input type="checkbox" id="Lowercase">
+          <div class="card-header">
+            <h2>Generate a Password</h2>
+          </div>
+          <!-- Moved the button into the form for a smoother look.-->
+          <button id="generate" class="btn">Generate Password</button>
       </form>
-      <!-- My code ends-->
       <div class="card">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
-        </div>
         <div class="card-body">
           <textarea
             readonly
@@ -43,8 +45,6 @@
           ></textarea>
         </div>
         <div class="card-footer">
-          <!-- Added in click functionality for Generate Password Button-->
-          <button id="generate" class="btn">Generate Password</button>
         </div>
       </div>
     </div>
